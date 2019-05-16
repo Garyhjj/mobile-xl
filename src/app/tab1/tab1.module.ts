@@ -1,3 +1,4 @@
+import { TestIi3Component } from './test-ii3/test-ii3.component';
 import { TestIi2Component } from './test-ii2/test-ii2.component';
 import { IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
@@ -15,9 +16,10 @@ import { TestIiComponent } from './test-ii/test-ii.component';
     FormsModule,
     RouterModule.forChild([{ path: '', component: Tab1Page, 
     children: [{ path: 'test', component: TestIiComponent },
-    {path: '', component: TestIi2Component}
+    {path: '', component: TestIi2Component},
+    {path: 'test1', component: TestIi3Component}
   ] }])
   ],
-  declarations: [Tab1Page, TestIiComponent, TestIi2Component]
+  declarations: [Tab1Page, TestIiComponent, TestIi2Component, TestIi3Component]
 })
 export class Tab1PageModule { }

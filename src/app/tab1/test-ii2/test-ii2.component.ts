@@ -10,7 +10,6 @@ export class TestIi2Component implements OnInit {
 
   constructor(private router: Router){}
   gotoc() {
-    debugger
     console.log(5555);
     this.router.navigateByUrl('tabs/tab1/test');
   }
