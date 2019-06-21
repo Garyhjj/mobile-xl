@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #00b5e2 0, #0070ff 20%, #0070ff 75%, #00b5e2 100%);
+    overflow: auto;
+    color: #eff0f1;
+    text-align: center;
+    font-family: 'Lato light';
+    font-size: 13px;
+    ion-item {
+        --background: transparent;
+    };
+    
+    .input-label {
+        margin-bottom: 2px;
+        margin-right: 28px;
+        .icon {
+            color: #fff;
+            font-size: 22px;
+        }
+    }
+
+    ion-input {
+        color: #fff;
+        font-size: 22px;
+    }
+}
+

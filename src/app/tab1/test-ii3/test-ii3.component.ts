@@ -9,6 +9,13 @@ export class TestIi3Component implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {}
+  onScopeChanged() {
+  }
+
+  ngOnInit() {
+    console.log(this)
+  }
+
+
 
 }
